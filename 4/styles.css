@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: left;
+}
+
+.movie {
+    margin-bottom: 40px;
+}
+
+.movie img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.movie h2 {
+    color: #333;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.movie p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.review {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.imdb-link {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}

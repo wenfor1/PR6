@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors</title>
+    <style>
+        p:nth-of-type(1) {
+            color: red;
+        }
+        p:nth-of-type(2), p:nth-of-type(5) {
+            color: black;
+        }
+        #green {
+            color: green;
+        }
+        #blue {
+            color: blue;
+        }
+        * {
+            text-align: center;
+        }
+        .note {
+            font-size: 20pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <h2>Applying CSS to Different Parts of HTML</h2>
+    <p>1. The element selector targets elements based on their HTML tag name.</p>
+    <p>2. Class selectors target elements based on the value of the class attribute.</p>
+    <p id="green">3. ID selectors target elements based on the value of the id attribute.</p>
+    <p id="blue">4. Attribute selectors target elements based on their attributes and values.</p>
+    <p>5. The universal selector targets all elements.</p>
+</body>
+</html>

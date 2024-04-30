@@ -1,0 +1,40 @@
+/* Заголовок */
+h1 {
+    color: black;
+    margin-left: 0;
+}
+
+/* Підзаголовки кольорів зі своїми ID селекторами */
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#orange {
+    color: orange;
+}
+
+#green {
+    color: green;
+}
+
+#yellow {
+    color: yellow;
+}
+
+/* Зображення */
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: 0;
+}
+
+/* Розділи кольорів */
+.color-section {
+    margin-bottom: 20px;
+    margin-left: 0;
+}
